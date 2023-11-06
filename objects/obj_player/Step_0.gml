@@ -4,26 +4,26 @@ running = false;
 
 if (casting_frame == 0) {
     if (!talking) {
-        if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
+        if (input_check("left")) {
             dx = -1;
         }
-        if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
+        if (input_check("right")) {
             dx = 1;
         }
-        if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
+        if (input_check("up")) {
             dy = -1;
         }
-        if (keyboard_check(vk_down) || keyboard_check(ord("S"))) {
+        if (input_check("down")) {
             dy = 1;
         }
-        if (keyboard_check(ord("C"))) {
+        if (input_check_pressed("cast")) {
             casting_frame = sprite_get_number(spr_duckling_cast) / 4;
         }
     }
     
     if (dx != 0 || dy != 0) {
         var mag = point_distance(0, 0, dx, dy);
-        if (keyboard_check(vk_shift)) {
+        if (input_check("run")) {
             running = true;
             mag /= 1.5;
         }
@@ -38,7 +38,7 @@ if (casting_frame == 0) {
     x += dx * 2;
     y += dy * 2;
     
-    if (keyboard_check_pressed(vk_space) && !talking) {
+    if (input_check_pressed("action") && !talking) {
         var facing = collision_point(x + 24 * dcos(anim_dir * 90), y - 24 * dsin(anim_dir * 90), par_thingy, false, true);
         if (facing) {
             talking = facing;

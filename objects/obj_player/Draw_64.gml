@@ -12,7 +12,7 @@ if (talking) {
     if (talking_t < string_length(talking.text)) {
         talking_t++;
     } else {
-        if (keyboard_check_pressed(vk_space)) {
+        if (input_check_pressed("action")) {
             talking = noone;
             talking_t = 0;
         }
