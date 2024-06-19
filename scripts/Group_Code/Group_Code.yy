@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Group_Code",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "TutorialInput",
-    "path": "TutorialInput.yyp",
+  "$GMScript":"",
+  "%Name":"Group_Code",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Group_Code",
+  "parent":{
+    "name":"TutorialInput",
+    "path":"TutorialInput.yyp",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
