@@ -1,3 +1,6 @@
+if (is_hit && ((current_time % 150) div 75) == 0)
+    return;
+
 if (casting_frame == 0) {
     sprite_index = running ? spr_duckling_run : spr_duckling;
     event_inherited();

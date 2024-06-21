@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Group_ADSR",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Group_ADSR",
+  "parent":{
+    "name":"TutorialInput",
+    "path":"TutorialInput.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

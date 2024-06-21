@@ -55,3 +55,18 @@ if (casting_frame == 0) {
 } else {
     casting_frame = max(0, casting_frame - 0.25);
 }
+
+if (is_hit == false && place_meeting(x, y, obj_walky)) {
+    is_hit = true;
+    
+    hp--;
+    
+    if (hp <= 0) {
+        instance_destroy();
+        return;
+    }
+    
+    call_later(1, time_source_units_seconds, function() {
+        is_hit = false;
+    });
+}

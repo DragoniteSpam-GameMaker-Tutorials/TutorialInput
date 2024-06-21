@@ -1,4 +1,4 @@
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < hp; i++) {
     draw_sprite_ext(spr_hearts, 0, 64 + 72 * i, 64, 4, 4, 0, c_white, 1);
 }
 

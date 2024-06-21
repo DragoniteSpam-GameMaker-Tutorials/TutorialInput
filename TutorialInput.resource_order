@@ -141,6 +141,7 @@
     {"name":"__input_validate_macros","order":27,"path":"scripts/__input_validate_macros/__input_validate_macros.yy",},
     {"name":"__input_virtual_player_set","order":28,"path":"scripts/__input_virtual_player_set/__input_virtual_player_set.yy",},
     {"name":"__input_window_changed","order":29,"path":"scripts/__input_window_changed/__input_window_changed.yy",},
+    {"name":"Group_ADSR","order":47,"path":"scripts/Group_ADSR/Group_ADSR.yy",},
     {"name":"Group_Code","order":32,"path":"scripts/Group_Code/Group_Code.yy",},
     {"name":"input_accessibility_global_cooldown_set","order":1,"path":"scripts/input_accessibility_global_cooldown_set/input_accessibility_global_cooldown_set.yy",},
     {"name":"input_accessibility_global_toggle_get","order":2,"path":"scripts/input_accessibility_global_toggle_get/input_accessibility_global_toggle_get.yy",},

@@ -60,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2023.1100.0.436",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"TutorialInput",
   "resources":[
@@ -172,6 +172,7 @@
     {"id":{"name":"__input_validate_macros","path":"scripts/__input_validate_macros/__input_validate_macros.yy",},},
     {"id":{"name":"__input_virtual_player_set","path":"scripts/__input_virtual_player_set/__input_virtual_player_set.yy",},},
     {"id":{"name":"__input_window_changed","path":"scripts/__input_window_changed/__input_window_changed.yy",},},
+    {"id":{"name":"Group_ADSR","path":"scripts/Group_ADSR/Group_ADSR.yy",},},
     {"id":{"name":"Group_Code","path":"scripts/Group_Code/Group_Code.yy",},},
     {"id":{"name":"input_accessibility_global_cooldown_get","path":"scripts/input_accessibility_global_cooldown_get/input_accessibility_global_cooldown_get.yy",},},
     {"id":{"name":"input_accessibility_global_cooldown_set","path":"scripts/input_accessibility_global_cooldown_set/input_accessibility_global_cooldown_set.yy",},},
