@@ -63,10 +63,14 @@ if (is_hit == false && place_meeting(x, y, obj_walky)) {
     
     if (hp <= 0) {
         instance_destroy();
+        //input_vibrate_pulse(1, 0, 3, 3_000);
         return;
     }
     
-    call_later(1, time_source_units_seconds, function() {
+    //input_vibrate_constant(1, 0, 1_000);
+    input_vibrate_curve(1, ac_cubic_io, 0, 2_000);
+    
+    call_later(2, time_source_units_seconds, function() {
         is_hit = false;
     });
 }

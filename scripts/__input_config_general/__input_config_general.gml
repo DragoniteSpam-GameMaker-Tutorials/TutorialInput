@@ -36,7 +36,7 @@
 #macro INPUT_DEFAULT_DEBUG_OVERLAY_BLOCKS_INPUT  false
 
 //Set to true to use milliseconds instead of frames throughout the library
-#macro INPUT_TIMER_MILLISECONDS  false
+#macro INPUT_TIMER_MILLISECONDS  true
 
 //Whether to allow using Steamworks extension when available
 //This feature requires the Steamworks extension: https://github.com/YoYoGames/GMEXT-Steamworks
